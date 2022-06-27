@@ -1,0 +1,17 @@
+.btn{
+    color: #fff;
+    background-color: $red;
+    border: solid 1px $red;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+
+    &:hover{
+        color: $red;
+        background-color: #fff;
+        transition: all 0.5s ease;
+    }
+}

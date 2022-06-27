@@ -1,0 +1,1 @@
+[2022-6-24 15:50:57] layer "golgoth-store.com": Unsupported extension: com

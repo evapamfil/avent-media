@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: $grey;
+    overflow-x: hidden;
+    img{
+        max-width: 100%;
+    }
+}
+
+.container{
+    max-width: 1210px;
+    padding: 0 30px;
+    margin: auto;
+    position: relative;
+    @media all and (max-width: 565px) {
+        padding: 0 15px;
+    }
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    &-lg{
+        font-size: 40px;
+        margin: 15px 0 20px 0;
+        @media all and (max-width: 565px) {
+            font-size: 30px;
+        }
+    }
+    &-md{
+        font-size: 37px;
+        margin: 10px 0 20px 0;
+        @media all and (max-width: 565px) {
+            font-size: 20px;
+        }
+    }
+    &-sm{
+        font-size: 18px;
+        margin: 8px 0 8px 0;
+    }
+}
